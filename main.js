@@ -14,14 +14,23 @@ function main() {
 
   var handleResize = function () {
     var height = 1080;
-    var minWidth = 1920;
-    var maxWidth = 1920;
+    var width = 1920;
     var canvasToWindowRatio = height / window.innerHeight;
-    var width = Math.min(Math.max(window.innerWidth * canvasToWindowRatio, minWidth), maxWidth);
 
-    canvas.width = width;
-    canvas.style.width = `${width / canvasToWindowRatio}px`;
-    canvas.style.height = `${window.innerHeight}px`;
+    if (canvasToWindowRatio > width / window.innerWidth) {
+      width = Math.min(window.innerWidth * canvasToWindowRatio, width);
+      canvas.width = width;
+      canvas.style.width = `${width / canvasToWindowRatio}px`;
+      canvas.style.height = `${window.innerHeight}px`;
+    }
+    else {
+      canvasToWindowRatio = width / window.innerWidth;
+
+      height = Math.min(window.innerHeight * canvasToWindowRatio, height);
+      canvas.height = height;
+      canvas.style.width = `${window.innerWidth}px`;
+      canvas.style.height = `${height / canvasToWindowRatio}px`;
+    }
     loadingBarEmpty.style.transform = `scale(${1 / canvasToWindowRatio})`;
   };
 
