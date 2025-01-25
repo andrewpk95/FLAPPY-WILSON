@@ -1,14 +1,21 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ConfirmPopup" preserve="all" />
+    <type fullname="AskHighscorePopupUI" preserve="all" />
+    <type fullname="ConfirmDeleteDataPopupUI" preserve="all" />
     <type fullname="CreditTextUI" preserve="all" />
+    <type fullname="EnterNicknamePopupUI" preserve="all" />
+    <type fullname="EquipButtonUI" preserve="all" />
+    <type fullname="HowToPlayPopupUI" preserve="all" />
+    <type fullname="MessagePopup" preserve="all" />
     <type fullname="PopupWindow" preserve="all" />
     <type fullname="PurchaseButtonUI" preserve="all" />
     <type fullname="SettingPopupUI" preserve="all" />
     <type fullname="SkinItemUI" preserve="all" />
     <type fullname="SkinPopupUI" preserve="all" />
+    <type fullname="SkinViewUI" preserve="all" />
     <type fullname="UserSettingPopup" preserve="all" />
     <type fullname="VolumeSettingUI" preserve="all" />
+    <type fullname=".HowToPlayPopupUI/TutorialInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
