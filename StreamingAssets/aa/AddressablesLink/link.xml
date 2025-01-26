@@ -6,6 +6,8 @@
     <type fullname="EnterNicknamePopupUI" preserve="all" />
     <type fullname="EquipButtonUI" preserve="all" />
     <type fullname="HowToPlayPopupUI" preserve="all" />
+    <type fullname="LanguageButtonUI" preserve="all" />
+    <type fullname="LocalizeComponent" preserve="all" />
     <type fullname="MessagePopup" preserve="all" />
     <type fullname="PopupWindow" preserve="all" />
     <type fullname="PurchaseButtonUI" preserve="all" />
