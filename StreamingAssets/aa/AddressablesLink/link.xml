@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AskHighscorePopupUI" preserve="all" />
+    <type fullname="AutoSizeText" preserve="all" />
     <type fullname="ButtonSoundComponent" preserve="all" />
     <type fullname="ConfirmDeleteDataPopupUI" preserve="all" />
     <type fullname="CreditTextUI" preserve="all" />
@@ -10,6 +11,8 @@
     <type fullname="LanguageButtonUI" preserve="all" />
     <type fullname="LocalizeComponent" preserve="all" />
     <type fullname="MessagePopup" preserve="all" />
+    <type fullname="NicknameInputUI" preserve="all" />
+    <type fullname="PasscodeInputUI" preserve="all" />
     <type fullname="PopupWindow" preserve="all" />
     <type fullname="PurchaseButtonUI" preserve="all" />
     <type fullname="SettingPopupUI" preserve="all" />
