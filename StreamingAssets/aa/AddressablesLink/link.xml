@@ -7,8 +7,10 @@
     <type fullname="CreditTextUI" preserve="all" />
     <type fullname="EnterNicknamePopupUI" preserve="all" />
     <type fullname="EquipButtonUI" preserve="all" />
+    <type fullname="GameSetting" preserve="all" />
     <type fullname="HowToPlayPopupUI" preserve="all" />
     <type fullname="LanguageButtonUI" preserve="all" />
+    <type fullname="LocalizationTable" preserve="all" />
     <type fullname="LocalizeComponent" preserve="all" />
     <type fullname="MessagePopup" preserve="all" />
     <type fullname="NicknameInputUI" preserve="all" />
@@ -16,12 +18,23 @@
     <type fullname="PopupWindow" preserve="all" />
     <type fullname="PurchaseButtonUI" preserve="all" />
     <type fullname="SettingPopupUI" preserve="all" />
+    <type fullname="SisellaActor" preserve="all" />
+    <type fullname="SisellaCharacter" preserve="all" />
     <type fullname="SkinItemUI" preserve="all" />
     <type fullname="SkinPopupUI" preserve="all" />
+    <type fullname="SkinTable" preserve="all" />
     <type fullname="SkinViewUI" preserve="all" />
     <type fullname="UserSettingPopup" preserve="all" />
     <type fullname="VolumeSettingUI" preserve="all" />
+    <type fullname="WilsonActor" preserve="all" />
     <type fullname=".HowToPlayPopupUI/TutorialInfo" preserve="nothing" serialized="true" />
+    <type fullname=".LevelSetting" preserve="nothing" serialized="true" />
+    <type fullname=".LocalizationData" preserve="nothing" serialized="true" />
+    <type fullname=".LocalizationKeyValuePair" preserve="nothing" serialized="true" />
+    <type fullname=".Range`1" preserve="nothing" serialized="true" />
+    <type fullname=".SkinRarityInfo" preserve="nothing" serialized="true" />
+    <type fullname=".SkinRarityType" preserve="nothing" serialized="true" />
+    <type fullname=".SkinSetting" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceAudioClip" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -30,7 +43,6 @@
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
-    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
@@ -52,6 +64,11 @@
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
   </assembly>
@@ -62,10 +79,16 @@
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
